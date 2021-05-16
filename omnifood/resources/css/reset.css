@@ -1,0 +1,51 @@
+/* ================ BASICS SETTINGS ================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+.main-nav li a{
+    text-decoration: none;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Links and ul */
+
+a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cf6d17;
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
